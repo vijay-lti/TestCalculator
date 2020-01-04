@@ -5,8 +5,11 @@ public class CalcFunctions {
 
 	public void display() {
 		System.out.println("TODO: Implement data display");
+		int sum=0;
 		for(int i:data) {
-			System.out.println("Next Value: "+data[i]);
+			System.out.println("Next Values: "+data[i]);
+			sum +=i;
 		}
+		System.out.println("Sum is: "+sum);
 	}
 }
